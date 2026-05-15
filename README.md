@@ -32,15 +32,15 @@
 
 ### 🗄️ Databases
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge\&logo=amazon-dynamodb\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
 
 ### ☁️ Cloud & Tools
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazon-aws\&logoColor=white)
 ![Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge\&logo=aws-lambda\&logoColor=white)
 ![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=for-the-badge\&logo=amazon-api-gateway\&logoColor=white)
-![Cognito](https://img.shields.io/badge/Cognito-DD344C?style=for-the-badge\&logo=amazon-cognito\&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge\&logo=amazon-s3\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
@@ -62,23 +62,6 @@
 * Real-time notifications using Go & AWS
 * WebSocket management via API Gateway
 * User-specific messaging system
-
----
-
-### 🔐 Secure Document Access via Email
-
-* Secure access using AWS Cognito
-* Presigned S3 URLs for controlled access
-* Role-based authorization
-
----
-### 📬 BrieflyBot — AI Email Summarizer
-
-* Built a personal productivity bot that reads Gmail emails and sends simplified summaries to Telegram
-* Integrated **Google Gemini AI** for generating concise, easy-to-understand summaries
-* Implemented secure Gmail access using OAuth (no passwords stored)
-* Developed real-time updates using **WebSocket** for instant delivery to desktop UI
-* Built a lightweight **Electron desktop app** with modern UI (floating window, always-on-top, glassmorphism design)
 
 ---
 
