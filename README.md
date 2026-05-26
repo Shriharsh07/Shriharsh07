@@ -79,7 +79,7 @@
 - Full-stack **Angular 21 + Go** admin panel for managing real-estate listings and owners
 - **JWT-based** admin authentication with bcrypt hashing and protected routes
 - Property CRUD with multi-field filtering — type, status, location (regex), owner, price range — powered by **MongoDB** (Go driver)
-- **Cloudinary** image upload integration for property photo management (up to 5 images)
+- **Cloudinary** image upload integration for property photo management.
 - Dashboard stats view tracking total, available, sold, and rented properties across 7 property types
 - Deployed on **Vercel** — Angular frontend (static) + Go serverless API (`@vercel/go`)
 
