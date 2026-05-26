@@ -73,16 +73,17 @@
 ---
 
 ### 🏡 Real Estate Admin Dashboard ![Built with AI](https://img.shields.io/badge/Built%20with-AI%20%28Windsurf%29-blueviolet?style=flat-square&logo=openai&logoColor=white)
+
 > 📋 *Developed exclusively on client request — actively used in production*
 
-- Full-stack **Angular 21 + Node.js** admin panel for managing real-estate listings and owners
+- Full-stack **Angular 21 + Go** admin panel for managing real-estate listings and owners
 - **JWT-based** admin authentication with bcrypt hashing and protected routes
-- Property CRUD with multi-field filtering — type, status, location (regex), owner, price range — powered by **MongoDB + Mongoose**
-- **Cloudinary + Multer** image upload integration for property photo management
-- Dashboard stats view tracking total, available, sold, and rented properties across 6 property types
-- Deployed on **Vercel** — Angular frontend + Express serverless API
+- Property CRUD with multi-field filtering — type, status, location (regex), owner, price range — powered by **MongoDB** (Go driver)
+- **Cloudinary** image upload integration for property photo management (up to 5 images)
+- Dashboard stats view tracking total, available, sold, and rented properties across 7 property types
+- Deployed on **Vercel** — Angular frontend (static) + Go serverless API (`@vercel/go`)
 
-**Tech:** Angular 21 · Angular Material · Node.js · Express · MongoDB · Mongoose · Cloudinary · JWT · Multer · Vercel
+**Tech:** Angular 21 · Angular Material · Go 1.21 · net/http · MongoDB · golang-jwt · Cloudinary Go SDK · Vercel
 
 > 🤖 *Built using AI-assisted development with [Windsurf](https://windsurf.com) — an AI coding IDE.*
 
